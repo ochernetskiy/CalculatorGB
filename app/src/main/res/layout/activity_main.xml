@@ -10,15 +10,28 @@
         android:id="@+id/picture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/flowers"/>
+        android:background="@drawable/flowers" />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="200dp"
         android:columnCount="4">
+
+
+        <TextView
+            android:id="@+id/text_field"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_columnSpan="4"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="@dimen/marginButton"
+            android:background="#494446"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#F6F2F2"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button_clear"
@@ -58,6 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginButton"
             android:backgroundTint="#4BD736F4"
+            android:onClick="onNumberClick"
             android:text="@string/button_7" />
 
         <Button
@@ -66,6 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginButton"
             android:backgroundTint="#4BD736F4"
+            android:onClick="onNumberClick"
             android:text="@string/button_8" />
 
         <Button
@@ -74,6 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginButton"
             android:backgroundTint="#4BD736F4"
+            android:onClick="onNumberClick"
             android:text="@string/button_9" />
 
         <Button
@@ -90,6 +106,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginButton"
             android:backgroundTint="#4BD736F4"
+            android:onClick="onNumberClick"
             android:text="@string/button_4" />
 
         <Button
@@ -98,6 +115,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginButton"
             android:backgroundTint="#4BD736F4"
+            android:onClick="onNumberClick"
             android:text="@string/button_5" />
 
         <Button
@@ -106,6 +124,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginButton"
             android:backgroundTint="#4BD736F4"
+            android:onClick="onNumberClick"
             android:text="@string/button_6" />
 
         <Button
@@ -122,6 +141,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginButton"
             android:backgroundTint="#4BD736F4"
+            android:onClick="onNumberClick"
             android:text="@string/button_1" />
 
         <Button
@@ -130,6 +150,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginButton"
             android:backgroundTint="#4BD736F4"
+            android:onClick="onNumberClick"
             android:text="@string/button_2" />
 
         <Button
@@ -138,6 +159,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginButton"
             android:backgroundTint="#4BD736F4"
+            android:onClick="onNumberClick"
             android:text="@string/button_3" />
 
         <Button
@@ -156,6 +178,7 @@
             android:layout_gravity="fill_horizontal"
             android:layout_margin="@dimen/marginButton"
             android:backgroundTint="#4BD736F4"
+            android:onClick="onNumberClick"
             android:text="@string/button_0" />
 
         <Button
