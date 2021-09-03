@@ -14,4 +14,10 @@
         <item name="android:fontFamily">@font/lato_regular</item>
         <item name="android:textSize">50sp</item>
     </style>
+
+    <style name="MainButton">
+        <item name="android:backgroundTint">@color/button_color</item>
+        <item name="android:layout_marginTop">300dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
 </resources>
