@@ -19,5 +19,6 @@
     <string name="button_minus">-</string>
     <string name="button_plus">+</string>
     <string name="button_equals">=</string>
-    <string name="result_field"> </string>
+    <string name="result"> </string>
+    <string name="button_text">Open Calculator</string>
 </resources>
